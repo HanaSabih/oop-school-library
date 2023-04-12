@@ -14,9 +14,11 @@
 - [📖 About the Project](#about-project)
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Clone](#clone)
 - [👥 Authors](#authors)
+- [🔭 Future Features ](#-future-features-)
 - [🤝 Contributing](#contributing)
 - [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -33,7 +35,10 @@
 - Save records of who borrowed a given book and when.
 
 ## 🛠️ Built With <a name="built-with"></a>
+### Key Features <a name="key-features"></a>
 
+- **[decorators in action]**
+- **[decorate classes]**
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -67,6 +72,11 @@ To setup the project locally, clone the repository using:
 - LinkedIn: [@hanasabih](https://www.linkedin.com/in/hana-sabih/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **[add basic ui]**
+- **[more styles changes]**
 
 <!-- CONTRIBUTING -->
 
