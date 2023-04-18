@@ -1,3 +1,4 @@
+# Numeable Class
 class Nameable
   def correct_name
     raise NotImplementedError
