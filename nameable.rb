@@ -1,5 +1,6 @@
+# Numeable Class
 class Nameable
-  def method_name
+  def correct_name
     raise NotImplementedError
   end
 end

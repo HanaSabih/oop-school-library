@@ -1,8 +1,8 @@
 require_relative 'nameable'
 require_relative 'rental'
-
+# Class: Person
 class Person < Nameable
-  attr_accessor :name, :age, :parent_permission, :rentals
+  attr_accessor :name, :age, :rentals
   attr_reader :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -18,17 +18,15 @@ class Person < Nameable
     Rental.new(date, book, self)
   end
 
+  def is_of_age? # rubocop:disable Naming/PredicateName
+    @age >= 18
+  end
+
   def can_use_services?
-    of_age? || @parent_permission
+    is_of_age? || @parent_permission
   end
 
   def correct_name
     @name
-  end
-
-  private
-
-  def of_age?
-    @age >= 18
   end
 end
